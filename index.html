@@ -28,8 +28,13 @@
         </a-assets>
 
         <a-marker preset="hiro" id="marker">
-            <a-entity gltf-model="scene.gltf" scale="0.005 0.005 0.005" position="0 0 0"></a-entity>
-            <a-torus id="visualSabuk" visible="false" color="#FFFFFF" radius="0.6" tube="0.1" scale="1 0.1 1" position="0 0.2 0" rotation="90 0 0"></a-torus>
+            <a-entity gltf-model="scene.gltf" 
+                      scale="0.005 0.005 0.005" 
+                      position="0 0 0" 
+                      animation="property: rotation; from: -90 0 0; to: -90 360 0; loop: true; dur: 8000; easing: linear">
+            </a-entity>
+            
+            <a-torus id="visualSabuk" visible="false" color="#FFFFFF" radius="0.5" tube="0.08" scale="1 0.1 1" position="0 0.3 0" rotation="90 0 0"></a-torus>
         </a-marker>
 
         <a-entity camera></a-entity>
@@ -38,4 +43,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
