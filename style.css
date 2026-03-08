@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+.layar-penuh {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(15, 23, 42, 0.85); 
+    backdrop-filter: blur(5px); 
+    color: white;
+    display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1000;
+}
+
+.layar-penuh h2 {
+    margin-bottom: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.layar-penuh p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+#tombol-mulai { 
+    padding: 15px 50px; 
+    font-size: 18px; 
+    font-weight: 600;
+    background: #e74c3c; 
+    color: white; 
+    border: none; 
+    border-radius: 50px; 
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 15px rgba(231, 76, 60, 0.4); 
+    transition: all 0.3s ease; 
+}
+
+#tombol-mulai:hover {
+    background: #c0392b;
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 20px rgba(231, 76, 60, 0.6);
+}
+
+#panel-sabuk {
+    position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
+    width: 85%; max-width: 400px;
+    background: rgba(255, 255, 255, 0.85); 
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 20px 25px; 
+    border-radius: 20px;
+    text-align: center; 
+    z-index: 99;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); 
+}
+
+#judul-sabuk {
+    margin: 0 0 5px 0;
+    font-size: 22px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+#arti-sabuk {
+    margin: 0;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.tersembunyi { 
+    display: none !important; 
+}

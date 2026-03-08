@@ -1,0 +1,13 @@
+[
+    { "sabuk": "Sabuk Putih", "warna": "#FFFFFF", "arti": "Kepolosan & Awal Mula" },
+    { "sabuk": "Sabuk Kuning", "warna": "#FFD700", "arti": "Bumi & Fondasi" },
+    { "sabuk": "Sabuk Kuning Strip Hijau", "warna": "#D4E157", "arti": "Proses Pertumbuhan" },
+    { "sabuk": "Sabuk Hijau", "warna": "#27AE60", "arti": "Pertumbuhan & Perkembangan" },
+    { "sabuk": "Sabuk Hijau Strip Biru", "warna": "#1ABC9C", "arti": "Arah Menuju Langit" },
+    { "sabuk": "Sabuk Biru", "warna": "#2980B9", "arti": "Langit & Kematangan" },
+    { "sabuk": "Sabuk Biru Strip Merah", "warna": "#8E44AD", "arti": "Menuju Kekuatan Penuh" },
+    { "sabuk": "Sabuk Merah", "warna": "#C0392B", "arti": "Matahari & Bahaya" },
+    { "sabuk": "Sabuk Merah Strip 1", "warna": "#A93226", "arti": "Kontrol Diri (Geup 2)" },
+    { "sabuk": "Sabuk Merah Strip 2", "warna": "#922B21", "arti": "Persiapan Akhir (Geup 1)" },
+    { "sabuk": "Sabuk Hitam", "warna": "#222222", "arti": "Penguasaan Diri Sejati" }
+]
